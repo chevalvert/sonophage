@@ -1,0 +1,24 @@
+{
+  "pixy": {
+    "address": "/dev/cu.usbmodem1421",
+    "width": 320,
+    "height": 200
+  },
+
+  "sound_udp": {
+    "local": "0.0.0.0",
+    "remote": "127.0.0.1",
+    "port": 2222,
+    "reconnection": {
+      "delay": 10000,
+      "attempts": 30
+    },
+    "floatDecimals": 3
+  },
+
+  "notes": [32, 33, 34, 35, 36, 36],
+  "note": {
+    "duration": 100,
+    "velocity": 127
+  }
+}

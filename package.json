@@ -1,0 +1,22 @@
+{
+  "name": "sonophage",
+  "version": "0.1.0",
+  "description": "track colors and emit OSC messages to play notes",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=dev node index.js --log-level=debug"
+  },
+  "repository": "https://github.com/chevalvert/sonophage",
+  "author": "RNO",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "log": "^1.4.0",
+    "minimist": "^1.2.0",
+    "missing-math": "^2.0.1",
+    "osc": "^2.2.0",
+    "serialport": "^6.0.4",
+    "tiny-emitter": "^2.0.2"
+  }
+}
