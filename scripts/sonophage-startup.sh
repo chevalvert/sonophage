@@ -11,4 +11,6 @@ APP="$PWD/sonophage"
 LOGS="$PWD/sonophage-logs"
 
 mkdir -p $LOGS
+
+sleep 60
 node $APP --log=$LOGS/$(date +%Y-%m-%d_%H-%M).log
