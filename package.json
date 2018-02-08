@@ -1,6 +1,6 @@
 {
   "name": "sonophage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "track colors and emit OSC messages to play notes",
   "main": "index.js",
   "bin": "index.js",
